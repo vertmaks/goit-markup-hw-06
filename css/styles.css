@@ -424,7 +424,7 @@ header .logo {
 
 /* #region Footer */
 .footer-links-block {
-  padding-right: 80px;
+  margin-right: 80px;
 }
 .footer .container {
   display: flex;
