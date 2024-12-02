@@ -48,7 +48,7 @@
             </li>
           </ul>
         </address>
-        <button class="header-menu-btn js-menu" type="button">
+        <button class="header-menu-btn js-open-menu" type="button">
           <svg class="mob-menu-icon" width="24" height="24">
             <use href="./images/icons.svg#burger-menu"></use>
           </svg>
@@ -56,7 +56,92 @@
       </div>
     </header>
 
-    <main class="">
+    <div class="burg-menu-bg js-menu">
+      <div class="menu-container">
+        <button class="menu-close-btn js-close-menu" type="button">
+          <svg class="icon" width="8" height="8">
+            <use href="./images/icons.svg#close"></use>
+          </svg>
+        </button>
+        <nav class="menu-nav">
+          <ul class="menu-nav-list">
+            <li>
+              <a href="./index.html" class="menu-nav-item active-mob">Studio</a>
+            </li>
+            <li><a href="" class="menu-nav-item">Portfolio</a></li>
+            <li><a href="" class="menu-nav-item">Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="menu-address">
+          <ul class="menu-address-list">
+            <li>
+              <a
+                href="mailto:info@devstudio.com"
+                class="menu-address-item active-mob"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+110001111111" class="menu-address-item"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+        <ul class="menu-links-list">
+          <li class="menu-links-item">
+            <a
+              class="menu-social-links"
+              href="https://instagram.com"
+              target="_blank"
+              rel="noopener no-referrer"
+            >
+              <svg class="icon" width="24" height="24">
+                <use href="./images/icons.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="menu-links-item">
+            <a
+              class="menu-social-links"
+              href="https://x.com/"
+              target="_blank"
+              rel="noopener no-referrer"
+            >
+              <svg class="icon" width="24" height="24">
+                <use href="./images/icons.svg#twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="menu-links-item">
+            <a
+              class="menu-social-links"
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="icon" width="24" height="24">
+                <use href="./images/icons.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="menu-links-item">
+            <a
+              class="menu-social-links"
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noopener no-referrer"
+            >
+              <svg class="icon" width="24" height="24">
+                <use href="./images/icons.svg#linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <main>
       <!-- Hero section -->
       <section class="hero-section">
         <div class="container">
@@ -837,5 +922,6 @@
       </div>
     </div>
     <script src="./js/index.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
