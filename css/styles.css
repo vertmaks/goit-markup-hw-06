@@ -416,7 +416,7 @@ header .container {
 /* #region Hero section */
 .hero-section {
   padding: 72px 0;
-  max-width: 767px;
+  max-width: 425px;
   margin: 0 auto;
   background-color: #2e2f42;
   background-image: linear-gradient(
